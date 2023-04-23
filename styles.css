@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  /* text-transform: capitalize; */
+  transition: all .2s linear;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #27ae60;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}
+
+
+/* #######################  */
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+} */
+
+
+body img {
+	height: 60px;
+	/* position: relative; */
+	display: flex;
+	margin-top: 0%;
+	margin-right: 0%;
+	/* justify-content: space-between; */
+}
+
+h1 {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.producto {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.producto img {
+	width: 150px;
+	height: 150px;
+	margin-right: 20px;
+}
+
+.informacion h2 {
+	margin-top: 0;
+}
+
+.total {
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.total h2 {
+	margin-top: 0;
+}
+
+.total h3 {
+	margin-top: 20px;
+	text-align: right;
+}
+
+.boton-pago {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.boton-pago:hover {
+	background-color: #3e8e41;
+}
+
+.boton-pago:active {
+	background-color: #2962a5;
+	transform: scale(0.98);
+}
+
+
+
+/* ######################### */
+
+.image-container {
+	display: inline-block;
+	position: relative;
+  }
+  
+  .image-container img {
+
+	/* width: 100px; */
+	height: 150px;
+
+	display: block;
+	max-width: 100%;
+	animation: heartbeat 1s infinite;
+  }
+  
+  @keyframes heartbeat {
+	0% {
+	  transform: scale(1);
+	}
+	25% {
+	  transform: scale(1.1);
+	}
+	50% {
+	  transform: scale(1.2);
+	}
+	75% {
+	  transform: scale(1.1);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
